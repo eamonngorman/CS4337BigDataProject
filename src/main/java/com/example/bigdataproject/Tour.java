@@ -63,9 +63,9 @@ public class Tour {
 
 
     // Method to check if the tour is full
-    public boolean isFull() {
+    /*public  isFull() {
         return getTotalBookingSize() >= capacity;
-    }
+    }*/
 
     // Method to display tour details
     public void displayTourDetails() {
