@@ -1,4 +1,4 @@
-package com.example.bigdataproject;
+package com.example.BigDataProject;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
