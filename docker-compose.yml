@@ -1,0 +1,14 @@
+services:
+  java-app:
+    image: project
+    container_name: app
+    depends_on:
+      - mysql
+    networks:
+      - net
+    ports:
+      - "8080:8080"
+
+networks:
+  net:
+    driver: bridge
